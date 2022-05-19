@@ -13,6 +13,7 @@ gem 'uglifier', '3.0.0'
 gem 'coffee-rails', '4.2.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+gem 'sqlite3', '= 1.3.13'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '4.1.1'
@@ -29,7 +30,7 @@ gem 'jbuilder', '2.5.0'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do# Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.13'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
