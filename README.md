@@ -1,16 +1,13 @@
 
 # README
 
-Software as a service - ruby on rails App - Demo 3
+Software as a service - ruby on rails App 
 =======
-# RubyNPM
-rubyONrailz
-# RubyNPM
-rubyONrailz
+git repo: RubyNPM
+cloud Env: aws:rubyONrailz
 
-# README
 command to run rails is
-bundle exec rails server -b $IP -p $PORT
+ - bundle exec rails server -b $IP -p $PORT
 
 
 
