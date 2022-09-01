@@ -9,6 +9,4 @@ cloud Env: aws:rubyONrailz
 command to run rails is
  - bundle exec rails server -b $IP -p $PORT
 
-
-
-
+=========
